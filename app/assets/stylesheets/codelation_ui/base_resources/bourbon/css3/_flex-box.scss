@@ -60,18 +60,11 @@
 // CSS3 Flexible Box Model and property defaults
 // Unified attributes for 2009, 2011, and 2012 flavours.
 
-// 2009 - display (box | inline-box)
 // 2011 - display (flexbox | inline-flexbox)
 // 2012 - display (flex | inline-flex)
 @mixin display($value) {
 // flex | inline-flex
   @if $value == "flex" {
-    // 2009
-    display: -webkit-box;
-    display: -moz-box;
-    display: box;
-
-    // 2012
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox; // 2011 (IE 10)
