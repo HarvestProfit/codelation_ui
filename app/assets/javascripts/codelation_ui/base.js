@@ -5,5 +5,4 @@
 //= require numeral
 //= require pluralize
 //= require ./_base_resources/app
-//= require ./_base_resources/progress_bar
 //= require_tree ./_base_resources/components
