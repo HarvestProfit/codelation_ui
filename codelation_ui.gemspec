@@ -4,8 +4,8 @@ $:.push File.expand_path("../lib", __FILE__)
 Gem::Specification.new do |s|
   s.name        = "codelation_ui"
   s.version     = "1.1.43"
-  s.authors     = ["Jake Humphrey"]
-  s.email       = ["jake@codelation.com"]
+  s.authors     = ["Jake Humphrey", "Jaryd Krishnan"]
+  s.email       = ["jake@harvestprofit.com", "jaryd@harvestprofit.com"]
   s.homepage    = "https://github.com/codelation/codelation_ui"
   s.summary     = "Base assets for rails asset pipeline"
   s.description = "Base assets for rails asset pipeline"
@@ -21,8 +21,6 @@ Gem::Specification.new do |s|
   s.add_dependency "autoprefixer-rails", "~> 6.7"
   s.add_dependency "turbolinks", "~> 5"
   s.add_dependency "uglifier", "~> 2.7"
-  s.add_dependency "mini_magick", "~> 4.7"
-  s.add_dependency "aws-sdk", "~> 2"
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec-rails"
 end
