@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.add_dependency "sass-rails", "~> 5.0"
   s.add_dependency "autoprefixer-rails", ">= 6.7"
   s.add_dependency "turbolinks", ">= 2.0", "<= 5.x"
-  s.add_dependency "uglifier", "~> 2.7"
+  s.add_dependency "uglifier", ">= 2.7"
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec-rails"
 end
